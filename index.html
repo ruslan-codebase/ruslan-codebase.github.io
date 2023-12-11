@@ -15,6 +15,12 @@
         body {
             background-image: linear-gradient(to right, #0f172a, #070c15);
         }
+        .sidebaritem img {
+            filter: invert(95%) sepia(6%) saturate(789%) hue-rotate(191deg) brightness(103%) contrast(84%);
+        }
+        .sidebaritem:hover img {
+            filter: invert(69%) sepia(44%) saturate(7357%) hue-rotate(166deg) brightness(98%) contrast(89%);
+        }
     </style>
 </head>
 
@@ -25,21 +31,25 @@
     </header>
     <main class="max-w-7xl p-3 flex flex-row m-auto mt-3 space-x-12 text-gray-200">
         <aside class="basis-2/12 space-y-3">
-            <div class="rounded-lg border border-slate-800 hover:border-sky-500 transition-all">
+            <div class="rounded-lg border border-slate-800 hover:border-sky-500 ">
                 <img src="static/images/cv-photo.jpg" class="rounded-lg" />
             </div>
             <div class="space-y-3">
                 <h2 class="text-lg text-sky-500">ЯЗЫКИ</h2>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 ">
+                    <img src="static/images/icons/EmojioneV1FlagForRussia.png" class="h-7" />
                     <p>Русский</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 ">
+                    <img src="static/images/icons/EmojioneV1FlagForNetherlands.png" class="h-7" />
                     <p>Nederlands</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 ">
+                    <img src="static/images/icons/EmojioneV1FlagForUnitedKingdom.png" class="h-7" />
                     <p>English</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 ">
+                    <img src="static/images/icons/EmojioneV1FlagForFrance.png" class="h-7" />
                     <p>Français</p>
                 </div>
             </div>
@@ -62,55 +72,55 @@
                 <h2 class="text-lg text-sky-500">ПРОЕКТЫ</h2>
                 <div class="grid grid-cols-3 gap-3">
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/region-growing.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">data analysis</h3>
                             <h4 class="text-md text-sky-300">Matlab, GNU Octave</h4>
                         </div>
                     </div>
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/pos-ogust.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">GUI creation</h3>
                             <h4 class="text-md text-sky-300">Python, QML</h4>
                         </div>
                     </div>
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/rakentaa-logo-kamikazoom.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">logo design</h3>
                             <h4 class="text-md text-sky-300">Inkscape</h4>
                         </div>
                     </div>
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/who-scored.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">data analysis</h3>
                             <h4 class="text-md text-sky-300">Python, Selenium</h4>
                         </div>
                     </div>
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/code-optimization.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">code optimization</h3>
                             <h4 class="text-md text-sky-300">Python, pytest</h4>
                         </div>
                     </div>
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/paperless-validation.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">fullstack mvp</h3>
                             <h4 class="text-md text-sky-300">Python, Redis, Docker</h4>
                         </div>
                     </div>
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/website-template.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">html template</h3>
                             <h4 class="text-md text-sky-300">HTML, CSS</h4>
                         </div>
                     </div>
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/logo-coding-school.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">logo design</h3>
                             <h4 class="text-md text-sky-300">Inkscape</h4>
                         </div>
                     </div>
                     <div class="rounded-lg bg-cover aspect-square" style="background-image: url(static/images/lazychesslogo-on-white.png)">
-                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 transition-all">
+                        <div class="w-full h-full bg-slate-800 rounded-lg opacity-0 hover:opacity-100 text-center p-6 ">
                             <h3 class="text-lg">logo design</h3>
                             <h4 class="text-md text-sky-300">Inkscape</h4>
                         </div>
@@ -121,58 +131,75 @@
         <aside class="basis-2/12">
             <div class="space-y-3">
                 <h2 class="text-lg text-sky-500">ИНСТРУМЕНТЫ</h2>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsPython.svg" class="h-7" />
                     <p>Python</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsJavascript.svg" class="h-7" />
                     <p>JavaScript</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsCsharp.svg" class="h-7" />
                     <p>C#</p>
                 </div>
                 <div class="mx-2 border-t border-slate-800"></div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsFlask.svg" class="h-7" />
                     <p>Flask</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsFastapi.svg" class="h-7" />
                     <p>Fastapi</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/simple-icons-sqlalchemy.svg" class="h-7" />
                     <p>SQLalchemy</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsVuedotjs.svg" class="h-7" />
                     <p>Vue</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsTailwindcss.svg" class="h-7" />
                     <p>Tailwindcss</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsQt.svg" class="h-7" />
                     <p>Qt/QML</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsSelenium.svg" class="h-7" />
                     <p>Selenium</p>
                 </div>
                 <div class="mx-2 border-t border-slate-800"></div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsPostgresql.svg" class="h-7" />
                     <p>PostgreSQL</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsMongodb.svg" class="h-7" />
                     <p>MongoDB</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsRedis.svg" class="h-7" />
                     <p>Redis</p>
                 </div>
                 <div class="mx-2 border-t border-slate-800"></div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsDocker.svg" class="h-7" />
                     <p>Docker</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsGit.svg" class="h-7" />
                     <p>Git</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsLinux.svg" class="h-7" />
                     <p>GNU/Linux</p>
                 </div>
-                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 transition-all">
+                <div class="flex flex-row px-3 space-x-3 border-x border-slate-800 hover:border-sky-500 sidebaritem">
+                    <img src="static/images/icons/SimpleIconsInkscape.svg" class="h-7" />
                     <p>Inkscape</p>
                 </div>
             </div>
